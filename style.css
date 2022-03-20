@@ -3,7 +3,8 @@
 *{
     margin: 0;
     padding: 0;
-    border-style: none;    
+    border-style: none; 
+
 }
 
 body{
@@ -18,14 +19,44 @@ body{
 .card{
     background-color: #272e3d;
     border-radius: 0.9em;
-    max-width: 50%; 
-    font-family: 'Overpass', sans-serif;   
-    font-weight: 400;
-    color: white;
+    max-width: 25%; 
+    font-family: 'Overpass', sans-serif;     
     padding: 1.4em;
 }
+
+h1{
+    
+    color: white;
+}
+
 p{
   color: #838c95; 
-  font-weight: 700;
-    
+  font-weight: 700;  
+  font-size: 15px;  
 }
+
+.buttons-rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.rating{
+    
+    background-color: #3b4141;
+    color: #838c95; 
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+.submit{
+    width: 100%;
+    border-radius: 30px;
+    padding: 12px ;
+    color: white;
+    background-color: #fc7613;
+}
+
