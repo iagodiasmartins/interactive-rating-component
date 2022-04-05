@@ -67,6 +67,17 @@ p {
     width: 40px;
     border-radius: 50px;
     font-size: 13px;
+    cursor: pointer;
+}
+
+.rating:hover{
+    background-color: #838c95;
+    color: #ffff;
+}
+
+.rating:focus{
+    color: white;
+    background-color: #fc7613;
 }
 
 .submit {
@@ -76,4 +87,10 @@ p {
     color: white;
     background-color: #fc7613;
     font-size: 12px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    color:#fc7613;
+    background-color:white ;
 }
