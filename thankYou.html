@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="thankYou.css">
     <link rel="shortcut icon" type="imagex/png" href="images\favicon-32x32.png">
+    <script type="text/javascript" src="index.js"></script>
     <title>Thank You!</title>
 </head>
 
-<body>
+<body onload="sendRating()">
 
     <div class="card">
 
@@ -18,7 +19,7 @@
         </div>
 
         <div class="selection-rank">
-            <p>You selected 4 out of 5</p>
+            <p>You selected <span id="rating"></span> out of 5</p>
         </div>
 
         <div class="title-text">Thank you!</div>
